@@ -1,0 +1,50 @@
+# Node modules
+node_modules/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE folders
+.vscode/
+.idea/
+
+# Dependency directories
+.bun/
+.cache/
+.parcel-cache/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# TypeScript
+*.tsbuildinfo
+
+# Thirdweb / Blockchain
+.walletconnect/
+thirdweb/
