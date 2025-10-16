@@ -54,10 +54,8 @@ export default function BarangaysPage() {
             Barangays Management
           </h1>
           <Button
-            // onClick={() => setIsModalOpen(true)}
-            onClick={() => {
-              <Link href="/Admin/Pages/Barangays/create"></Link>;
-            }}
+            onClick={() => setIsModalOpen(true)}
+            // onClick={() => {<Link}}
             className="bg-blue-600 hover:bg-blue-700 text-white flex items-center"
           >
             <PlusCircle className="w-4 h-4 mr-2" /> Add Barangay
